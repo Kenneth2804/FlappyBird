@@ -1,0 +1,43 @@
+.container{
+
+	width: 500px;
+	height: 790px;
+	position: absolute;
+}
+.cielo{
+	background-color: #9CDFFF;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 580px;
+	position: absolute;
+}
+
+.piso{
+	background-image: url("pasto.jpg");
+	width: 500px;
+	height: 150px;
+	position: absolute;
+	top: 580px;
+}
+.bird{
+	background-image: url("pajar2.png");
+	position: absolute;
+	width: 60px;
+	height: 45px;
+	left: 220px;
+	bottom: 100px;
+}
+
+.obstaculo{
+	background-image: url("pipe.png");
+	width: 60px;
+	position: absolute;
+	height: 300px;
+}
+.topObstaculo{
+	background-image: url("pipe.png");
+	transform: rotate(180deg);
+	width: 60px;
+	position: absolute;
+	height: 300px;
+}
